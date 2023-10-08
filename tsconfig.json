@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        // 设置编译后代码使用的模块化系统
+        "module": "ES2015",
+        // 设置ts代码编译的目标版本
+        "target": "ES2015",
+        // 开启严格检查
+        "strict": true,
+        // 代码有错时不进行编译
+        "noEmitOnError": true
+    }
+}

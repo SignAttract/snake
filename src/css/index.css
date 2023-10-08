@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  width: 360px;
+  height: 420px;
+  background-color: #b7d4a8;
+  margin: 100px auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#main .top {
+  width: 304px;
+  height: 304px;
+  border: 2px solid #000;
+  position: relative;
+}
+#main .top .snake > div {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border: 1px solid #b7d4a8;
+  position: absolute;
+}
+#main .top #food {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+#main .top #food > div {
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+#main .bottom {
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Courjer';
+}
